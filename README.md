@@ -54,10 +54,19 @@ No **primeiro terminal**, configure o servidor que processa as imagens e textos:
    # Instale os pacotes
    pip install -r requirements.txt
 
-2. **Execute o script do chatbot:**
-   ```bash
-   # node chatbot/chatbot.js
 
-3. **Execute o backend:**
+2. **Inicie o servidor:**
    ```bash
    # python app.py
+
+
+3. **Instale as dependências do Node:**
+   ```bash
+   # cd chatbot
+   # npm install
+   # Volte para a pasta raiz 
+
+
+4. **Inicie o cliente do WhatsApp:**
+   ```bash
+   # node chatbot/chatbot.js
